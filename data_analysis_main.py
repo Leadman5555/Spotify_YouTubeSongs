@@ -12,8 +12,11 @@ from sklearn.decomposition import PCA
 PATH_TO_DATASET = os.path.join(kagglehub.dataset_download("salvatorerastelli/spotify-and-youtube"),
                                "Spotify_Youtube.csv")
 DATA_PATH = os.path.join(os.getcwd(), "data")
+os.makedirs(DATA_PATH, exist_ok=True)
 PLOT_PATH = os.path.join(DATA_PATH, "plots")
+os.makedirs(PLOT_PATH, exist_ok=True)
 CSV_PATH = os.path.join(DATA_PATH, "csv")
+os.makedirs(CSV_PATH, exist_ok=True)
 
 def save_to_csv(to_save, filename):
     full_filename = f'{filename}.csv'
