@@ -30,7 +30,6 @@ docs/_build/
 docsets/
 
 .ipynb_checkpoints/
-*.ipynb
 
 .idea/
 *.iml
