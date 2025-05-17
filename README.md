@@ -36,18 +36,3 @@ Once the notebook is open:
 
 - To execute a cell, click on it and press `Shift + Enter` or click the "Run" button in the toolbar.
 ---
-
-## Save the plots and summaries to a file
-
-Run the [Optional] parts in the notebook or run the `data_analysis_main.py` file using Python in CLI environment to
-automatically save all charts and summaries to disk. 
-
-## Running the `data_analysis_main.py` file
-
-1. Using CLI, navigate to SpotifySongs folder.
-2. Run the script via:
-```bash
-  python data_analysis_main.py 
-```
-It will automatically save all plots and csv files to the disk. Behaviour is identical to running all [Optional] cells 
-in the notebook version.
