@@ -1,4 +1,4 @@
-# *Please view 'Summary — Ignacy Smoliński' for a better reading experience*
+# *Please view 'Summary — Ignacy Smoliński.pdf' for a better reading experience*
 
 # Summary: Spotify and YouTube song metrics research
 ## Author: Ignacy Smoliński
